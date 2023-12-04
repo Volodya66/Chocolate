@@ -1,0 +1,135 @@
+.page-footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: var(--second-color);
+  color: var(--white);
+}
+
+.footer-title-text {
+  display: block;
+  max-width: 300px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+}
+
+.footer-top-part {
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-contact-social-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contact {
+  display: block;
+}
+
+.footer-contact-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  margin-bottom: 14px;
+}
+
+.footer-contact-info {
+  display: block;
+  font-style: normal;
+}
+
+.footer-contact-list-item:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.footer-contact-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 14px;
+}
+
+.footer-social-list-link {
+  display: block;
+}
+
+.footer-social-list-icon {
+  fill: var(--white);
+  transition: fill var(--transition);
+}
+.footer-social-list-icon:hover,
+.footer-social-list-icon:focus {
+  fill: var(--accent-color);
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  transition: color var(--transition);
+}
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  color: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .page-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .footer-top-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-bottom: 24px;
+  }
+
+  .footer-title-text {
+    margin-bottom: 0;
+  }
+
+  .footer-contact-social-part {
+    justify-content: flex-start;
+    gap: 50px;
+  }
+
+  .footer-menu {
+    flex-direction: row;
+    gap: 24px;
+  }
+  /*   .footer-menu::before {
+    top: -24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: rotate(180deg);
+  } */
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-top-part {
+    padding-bottom: 58px;
+  }
+
+  .footer-contact-social-part {
+    gap: 63px;
+  }
+}

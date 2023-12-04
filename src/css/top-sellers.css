@@ -1,0 +1,115 @@
+.name-section-top-sellers {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.discription-image-one {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-color);
+  max-width: 306px;
+  margin-top: 20px;
+}
+.item_pc {
+  display: none;
+}
+.top-sel-img {
+  border-radius: 15px;
+}
+.top-sellers-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.button-top-sellers-modal {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+
+  color: var(--white);
+  padding: 12px 28px;
+
+  border: none;
+  background-color: var(--accent-color);
+  border-radius: 100px;
+  transition: color var(--transition), background var(--transition);
+}
+.button-top-sellers-modal:hover,
+.button-top-sellers-modal:focus {
+  background: var(--active-button-color);
+  color: var(--accent-color);
+}
+.button-div {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-sellers-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  /*   .top-sellers-section {
+    padding-top: 28px;
+  } */
+  .name-section-top-sellers {
+    font-size: 24px;
+    line-height: 1.16;
+
+    margin-bottom: 50px;
+  }
+  .discription-image-one {
+    margin-top: 32px;
+  }
+  .button-top-sellers-modal {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+
+    color: var(--white);
+    padding: 14px 40px;
+
+    border: none;
+    background-color: var(--accent-color);
+    border-radius: 100px;
+  }
+  .button-div {
+    display: flex;
+
+    justify-content: end;
+    margin-top: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .item_pc {
+    display: block;
+  }
+  /*   .discription-image-one {
+    position: absolute;
+    max-width: 407px;
+  } */
+  /*   .top-sellers-section {
+    padding-bottom: 104px;
+  } */
+  .button-div {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: end;
+    margin-top: 32px;
+  }
+}

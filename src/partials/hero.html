@@ -1,0 +1,277 @@
+<section class="section-hero">
+  <div class="container-hero container" id="hero">
+    <div class="wrapper-hero">
+      <h1 class="visually-hidden">Make your own real chocolate story!</h1>
+      <h2 class="title-hero">
+        <span class="span-hero-text-mob">Treat yourself or a loved one</span> to
+        <span class="span-text-hero-tabl">
+          our finest ingredients for a moment of pure delight!</span
+        >
+      </h2>
+      <div class="hero-button-container">
+        <ul class="list-hero-button">
+          <li>
+            <button
+              type="button"
+              class="button-hero-modal"
+              data-modal-open="buy-modal"
+            >
+              Buy now
+            </button>
+          </li>
+          <li><a href="#how-its-made" class="link-scroll">How it’s made</a></li>
+        </ul>
+
+        <a href="#footer" class="hero-svg-scroll">
+          scroll down
+          <span class="span-svg-hero">
+            <svg class="svg-hero" width="16" height="16">
+              <use href="/img/icons.svg#icon-rr-angle"></use>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- modal -->
+  <div class="modal-hero is-hidden" data-modal id="buy-modal">
+    <div class="vrapper-modal-hero">
+      <button class="close-modal-hero" data-modal-close>
+        <svg class="svg-close-hero" width="16" height="16">
+          <use href="/img/icons.svg#icon-x-mark"></use>
+        </svg>
+      </button>
+      <h2 class="title-hero-modal">
+        <span class="modal-components-title">BUY</span> NOW
+      </h2>
+      <ul class="list-hero-chocolate">
+        <li class="hero-chocolate-container">
+          <picture>
+            <source
+              srcset="
+                /img/hero/modal-hero-tablet/black-chocolate.webp       1x,
+                /img/hero/modal-hero-tablet/black-chocolate@2x(1).webp 2x
+              "
+              media="(min-width: 768px)"
+            />
+
+            <source
+              srcset="
+                /img/hero/modal-hero-tablet/black-chocolate.png    1x,
+                /img/hero/modal-hero-tablet/black-chocolate@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <!-- max-width: 767.9px -->
+
+            <source
+              srcset="
+                /img/hero/modal-hero/black-chocolate.webp    1x,
+                /img/hero/modal-hero/black-chocolate@2x.webp 2x
+              "
+              media="(max-width: 767.9px)"
+            />
+
+            <source
+              srcset="
+                /img/hero/modal-hero/black-chocolate.png    1x,
+                /img/hero/modal-hero/black-chocolate@2x.png 2x
+              "
+              media="(max-width: 767.9px)"
+            />
+
+            <img
+              class="icon-chocolate-modal"
+              src="/img/hero/modal-hero/black-chocolate.png"
+              width="84"
+              height="69"
+              alt="Black chocolate"
+            />
+          </picture>
+
+          <button class="button-modal-chocolate">100 g</button>
+        </li>
+        <li class="hero-chocolate-container">
+          <picture>
+            <source
+              srcset="
+                /img/hero/modal-hero-tablet/milk-black.webp       1x,
+                /img/hero/modal-hero-tablet/milk-black@2x(1).webp 2x
+              "
+              media="(min-width: 768px)"
+            />
+
+            <source
+              srcset="
+                /img/hero/modal-hero-tablet/milk-black.png    1x,
+                /img/hero/modal-hero-tablet/milk-black@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <!-- max-width: 767.9px -->
+
+            <source
+              srcset="
+                /img/hero/modal-hero/milk-black.webp    1x,
+                /img/hero/modal-hero/milk-black@2x.webp 2x
+              "
+              media="(max-width: 767.9px)"
+            />
+
+            <source
+              srcset="
+                /img/hero/modal-hero/milk-black.png    1x,
+                /img/hero/modal-hero/milk-black@2x.png 2x
+              "
+              media="(max-width: 767.9px)"
+            />
+
+            <img
+              class="icon-chocolate-modal"
+              src="/img/hero/modal-hero/milk-black.png"
+              width="84"
+              height="69"
+              alt="Dark milk chocolate with nuts"
+            />
+          </picture>
+
+          <button class="button-modal-chocolate">200 g</button>
+        </li>
+        <li class="hero-chocolate-container">
+          <picture>
+            <source
+              srcset="
+                /img/hero/modal-hero-tablet/bar-of-chocolate.webp       1x,
+                /img/hero/modal-hero-tablet/bar-of-chocolate@2x(1).webp 2x
+              "
+              media="(min-width: 768px)"
+            />
+
+            <source
+              srcset="
+                /img/hero/modal-hero-tablet/bar-of-chocolate.png   1x,
+                /img/hero/modal-hero-tablet/black-chocolate@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <!-- max-width: 767.9px -->
+
+            <source
+              srcset="
+                /img/hero/modal-hero/bar-of-chocolate.webp    1x,
+                /img/hero/modal-hero/bar-of-chocolate@2x.webp 2x
+              "
+              media="(max-width: 767.9px)"
+            />
+
+            <source
+              srcset="
+                /img/hero/modal-hero/bar-of-chocolate.png    1x,
+                /img/hero/modal-hero/bar-of-chocolate@2x.png 2x
+              "
+              media="(max-width: 767.9px)"
+            />
+
+            <img
+              class="icon-chocolate-modal"
+              src="/img/hero/modal-hero/bar-of-chocolate.png"
+              width="84"
+              height="69"
+              alt="Bar of chocolate"
+            />
+          </picture>
+
+          <button class="button-modal-chocolate">300 g</button>
+        </li>
+      </ul>
+
+      <form class="form-hero-modal">
+        <div class="wrapper-name-modal">
+          <label class="label-hero-modal-name container-name">
+            <span class="name-hero-input">Personal information</span>
+            <input
+              type="text"
+              name="name persona"
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄёЁ' ]+"
+              required
+              class="input-hero-modal-name input-modal-hero"
+              placeholder="Name"
+            />
+          </label>
+
+          <label class="label-hero-modal-surname container-name">
+            <input
+              type="text"
+              name="surname persona"
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄёЁ' ]+"
+              required
+              class="input-hero-modal-surname input-modal-hero"
+              placeholder="Surname"
+            />
+          </label>
+        </div>
+
+        <label class="label-hero-modal-email">
+          <span class="name-hero-input">Email</span>
+
+          <input
+            type="email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            name="email persona"
+            required
+            class="input-hero-modal-email input-modal-hero"
+            placeholder="Enter your email"
+          />
+        </label>
+
+        <label class="label-hero-modal-number">
+          <span class="name-hero-input">Phone number</span>
+          <span class="flad-icon-modal">
+            <input
+              type="tel"
+              name="number persona"
+              required
+              class="input-hero-modal-number input-number-modal"
+              placeholder="Phone number"
+            />
+            <span class="container-flag-number">
+              <svg class="flag-svg" width="32" height="24">
+                <use href="/img/icons.svg#icon-flag-ua"></use>
+              </svg>
+              <span class="text-number-input">+380</span>
+            </span>
+          </span>
+        </label>
+
+        <label class="label-hero-modal-number-card">
+          <span class="name-hero-input">Card number</span>
+          <span class="master-card-modal-svg">
+            <input
+              type="text"
+              name="number card persona"
+              required
+              pattern="\d{4}-\d{4}-\d{4}-\d{4}"
+              title="XXXX-XXXX-XXXX-XXXX"
+              class="input-hero-modal-number-card input-modal-hero"
+              placeholder="Enter card"
+            />
+            <svg class="mastercard-svg" width="32" height="21">
+              <use href="/img/icons.svg#icon-mastercard"></use>
+            </svg>
+          </span>
+        </label>
+
+        <label class="textarea-hero-modal">
+          <span class="name-hero-input">Comment</span>
+          <textarea
+            name="feedback persona"
+            class="textarea-modal-hero"
+            placeholder="Enter text"
+          ></textarea>
+        </label>
+        <button class="button-hero-modal-form" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <!-- modal -->
+</section>

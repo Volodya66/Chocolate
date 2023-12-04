@@ -1,0 +1,113 @@
+/* .visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+} */
+
+.advantages {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--second-color);
+}
+
+/* .adv-container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.advantages-menu-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--white);
+  margin-bottom: 18px;
+}
+
+.advantages-menu-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.advantages-menu-desc {
+  max-width: 310px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.advantages-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .adv-container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .advantages-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 60px;
+  }
+
+  .advantages-menu-item {
+    width: calc((100% - 60px) / 2);
+  }
+
+  .advantages-menu-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .adv-container {
+    max-width: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .advantages-menu {
+    gap: 88px;
+  }
+
+  .advantages-menu-item {
+    position: relative;
+    width: calc((100% - 176px) / 3);
+  }
+
+  .advantages-menu-item:not(:last-child)::after {
+    content: '';
+    height: 124px;
+    width: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    position: absolute;
+    display: inline-block;
+    left: 326px;
+    top: 60px;
+  }
+}
